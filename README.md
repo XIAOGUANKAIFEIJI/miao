@@ -6,5 +6,21 @@ document.querySelector('button:nth-child(3)').onclick=function(){
             document.querySelector('video').pause();
         }
 ~~~
-##简单的视频控制网页，跟着教程做的
-主要的任务是使用<div>创造几个盒子，css样式里注意position的变化，script里注意document.querySelector() ，用来选择元素，var声明元素，选择这个元素之后，函数调用的时候要用到事件，也就是这个元素现在的动作状态。例如onclick等
+##02简单的视频控制网页
+css样式里注意position的变化，script里注意document.querySelector() ，跟01不同的地方是var声明元素，之后再用来做函数，有点像java。.onclick等是事件，动作发生的意思。
+```
+//播放时切换图标
+var video = document.querySelector('video');
+playBtn.onclick = function () {
+            if (video.paused) {
+                video.play();
+                //切换图标
+                this.classList.remove('icon-play');
+                this.classList.add('icon-pause');
+            } else {
+                video.pause();
+                this.classList.remove('icon-pause');
+                this.classList.add('icon-play');
+            }
+        }
+```
