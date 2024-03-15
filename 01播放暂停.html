@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="简单的视频播放器" content="width=device-width, initial-scale=1.0">
+    <title>视频播放器</title>
+</head>
+<body>
+    <video src="video/movie.mp4"></video>
+    <button>播放</button>
+    <button>暂停</button>
+    <script>
+        document.querySelector('button:nth-child(2)').onclick=function(){
+            document.querySelector('video').play();
+        }
+        document.querySelector('button:nth-child(3)').onclick=function(){
+            document.querySelector('video').pause();
+        }
+    </script>
+
+</body>
+</html>
