@@ -7,3 +7,9 @@
 高级系统设置里环境变量path添加到bin的路径，删干净之前的
 JAVA_HOME新建到jdk目录路径
 到path路径引入JAVA_HOME变量%JAVA_HOME%\bin
+##3.安装mysql 5.7.35
+https://blog.csdn.net/Acx77/article/details/120846891
+https://downloads.mysql.com/archives/community/
+解压缩记得
+##4.下载idea
+https://www.quanxiaoha.com/idea-pojie/idea-pojie-202323.html
