@@ -1,0 +1,9 @@
+#java的安装使用
+#开始之前把mysql都删干净！
+##1jdk1.8exe安装，到半截有个jre安装。
+然后cmd里java -version 看安装好没有
+
+##2.环境变量
+高级系统设置里环境变量path添加到bin的路径，删干净之前的
+JAVA_HOME新建到jdk目录路径
+到path路径引入JAVA_HOME变量%JAVA_HOME%\bin
